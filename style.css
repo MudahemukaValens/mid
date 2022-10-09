@@ -8,8 +8,24 @@ body{
 }
 .first{
     float: left;
+    padding-left: 20px;
+}
+.first ul{
+	    background: black;
+    border-radius: 20px;
 }
 .first ul li{
     list-style-type: none;
+}
+.first ul li a{
+	text-decoration: none;
+
+}
+.first ul li a:hover{
+	color: blue;
+}
+.con, .con2, .con3, .con4{
+	margin: auto;
+	width: 70%;
 }
 
